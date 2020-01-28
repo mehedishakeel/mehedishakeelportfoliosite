@@ -1,52 +1,5 @@
 @charset "UTF-8";
-/*------------------------------------------------------------------
 
- *
- * Author      : Khorshed Alam (thekhorshed)
- * Project     : KA Starter
- * Version     : 1.0.0
- * Description : Just a simple starter template to jump start your development.
- * Primary use : Starter Template
- * Last update : YYYY/MM/DD
- *
-
- * -----------------------------------------------------------------*
- *                         TABLE OF CONTENTS                        *
- * -----------------------------------------------------------------*
- *
- * 01. Base Styles
- * 02. Header
- * 03. Navigation
- * 04. Footer Styles
- * 05. Responsive Styles
- *
-
- * -----------------------------------------------------------------*
- *                        Color Codes                               *
- * -----------------------------------------------------------------*
-
- * $theme-color         : #fc854b;
-
- * $text-color          : #787878;
- * $text-color-dark     : #444444;
- * $bg-color-light      : #FFFFFF;
- * $bg-color-dark       : #f1f1f1;
-
--------------------------------------------------------------------*/
-/* Plagin
-----------------------------------*/
-/*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/* Rex Style Colors
-===============================*/
-/* Rex Style
-===============================*/
-/*	End
-=============================== */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
 html {
   font-family: sans-serif;
@@ -6263,7 +6216,7 @@ a#scrollUp {
   left: 0;
   width: 100%; }
   .is-sticky div.navigation {
-    width: 100% !important;
+    width: 80% !important;
     box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.38) !important; }
 
 .header-two .is-sticky > .navigation, .header-three .is-sticky > .navigation {
